@@ -1,0 +1,617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_photo.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\dark\icons\128.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\255.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\8u.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\Category.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\CategoryView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\components\Checker.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\color\Color.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\components\Combox.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\components\CurveMenu.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\description\Description.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\enhancement\Enhancement.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\filters\Filters.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\genius\Genius.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\components\HintMessage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\components\IconButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\components\ImageItem.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\components\ImageKernel.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\ImageView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\input\Input.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\components\Input.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\MainContent.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\MainWindow.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\morphology\MassiveStructureElements.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\morphology\Morphology.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\multiresolution\Multiresolution.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\themes\Night.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\Options.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\filters\Options_AdaptiveLocalNoise.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\filters\Options_AdaptiveMedian.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\input\Options_Arithmetic.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\filters\Options_BandPass.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\filters\Options_BandReject.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\segmentation\Options_BasicGlobalThresholding.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\morphology\Options_BasicOperations.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\description\Options_Boundary.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\segmentation\Options_CannyEdgeDetector.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\color\Options_ColorSlicing.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\morphology\Options_ConnectedComponents.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\enhancement\Options_ContrastStretching.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\description\Options_ConvexHull.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\morphology\Options_ConvexHull.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\enhancement\Options_CustomCurve.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\filters\Options_Derivatives.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\genius\Options_DetectObjects.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\multiresolution\Options_FastWaveletTransform.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\description\Options_FourierDescriptors.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\input\Options_FourierTransform.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\morphology\Options_Geodesic.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\morphology\Options_Gradient.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\morphology\Options_Hat.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\filters\Options_HighFrequencyEmphasis.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\filters\Options_Highpass.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\enhancement\Options_HistogramMatching.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\filters\Options_Homomorphic.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\segmentation\Options_HoughCircles.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\segmentation\Options_HoughLines.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\enhancement\Options_ImageAveraging.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\color\Options_IntensitySlicing.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\segmentation\Options_LocalThresholding.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\enhancement\Options_LogTransformation.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\filters\Options_Lowpass.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\segmentation\Options_MarrHildrethEdgeDetector.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\filters\Options_Mean.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\segmentation\Options_MovingAverage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\filters\Options_NotchPass.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\filters\Options_NotchReject.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\input\Options_Open.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\segmentation\Options_OptimumGlobalThresholding.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\filters\Options_OptimumNotch.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\filters\Options_OrderStatistics.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\enhancement\Options_PowerLawTransformation.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\morphology\Options_Pruning.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\morphology\Options_Reconstruction.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\segmentation\Options_RegionSplittingMerging.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\color\Options_SaturationCorrection.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\color\Options_SplitComponents.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\multiresolution\Options_Subband.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\morphology\Options_Thickening.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\morphology\Options_Thinning.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\color\Options_TonalCorrection_Black.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\color\Options_TonalCorrection_Cyan.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\color\Options_TonalCorrection_Magenta.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\color\Options_TonalCorrection_Yellow.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\components\ProcessingMessage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\segmentation\Segmentation.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\components\Slider.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\components\SwitchButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\components\TabButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\categories\segmentation\Threshold.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\components\ToolTip.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\components\ToolTipArea.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\active-tools.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\add-spot-stop.xcf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\apply.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\batch-processing.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\bookmark-new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\bookmark-remove.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\bookmarked-tools.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\broken-image-48px.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\broken-image.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\bubble-attention.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\bubble-question.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\crop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\delete.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\dialog-cancel.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\dialog-ok.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\document-open.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\document-save.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\downsampling.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\edit-clear.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\edit-disable.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\edit-enable.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\edit-spot.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\edit-spot.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\export-image.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\file-manager.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\folder-48px.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\folder-bookmarks.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\folder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\fourier-inverse.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\fourier-transform.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\go-next.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\go-previous.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\go-up-48px.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\go-up.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\go-up.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\gray2rgb.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\histogram-equalization.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\image-center-hor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\image-center-vert.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\image-remove.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\indicator-active-tab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\indicator-allow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\indicator-block.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\indicator-checked.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\indicator-expanded-active.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\indicator-expanded-blocked.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\indicator-expanded-normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\indicator-folded-active.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\indicator-folded-blocked.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\indicator-folded-normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\indicator-unchecked.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\indicator.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\info-pane.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\job-add.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\job-remove.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\js\json.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\load-config.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\load-image.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\move-object-down-disabled.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\move-object-down-disabled.xcf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\move-object-down.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\move-object-up-disabled.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\move-object-up-disabled.xcf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\move-object-up.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\my-computer.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\path-separator-menuopen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\path-separator-normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="photo.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="image\dark\icons\preview-mode-full.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\preview-mode-tabs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\processing-abort.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\processing-pane.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\themes\qmldir">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\reset.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\result-new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\result-old.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\rgb2gray.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\rotate-angle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\rotate-left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\rotate-right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\run-pipe.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\save-image.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\settings-pane.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\patterns\slider-stripe-dark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\patterns\slider-stripe-darkgrey.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\patterns\slider-stripe-grey.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\patterns\slider-stripe-midgrey.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\spatial-image.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\switch-orientation.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\switch-orientation.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\template-append.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\tool-hide.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\tool-show.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\upsampling.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\view-fullscreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\view-restore.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\visible-tools.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\zoom-fit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\zoom-in.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\zoom-original.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\dark\icons\zoom-out.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
