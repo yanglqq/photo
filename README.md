@@ -1,6 +1,8 @@
 # photo
 The homework of reading the book [Digital Image Processing 3rd Edition](https://www.amazon.com/Digital-Image-Processing-Rafael-Gonzalez/dp/013168728X)
 
+![Screen shot](ScreenShot.jpg)
+
 ## Dependencies
 * [OpenCV 3.2.0](https://github.com/opencv/opencv)
 * [QT 5.6.2](https://download.qt.io/official_releases/qt/5.6/5.6.2/)
